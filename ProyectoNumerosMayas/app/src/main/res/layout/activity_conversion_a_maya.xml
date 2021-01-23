@@ -22,13 +22,13 @@
             android:gravity="center">
 
             <ImageView
-                android:id="@+id/imageView"
+                android:id="@+id/imageViewP2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 app:srcCompat="@drawable/numero_0" />
 
             <TextView
-                android:id="@+id/textViewP2"
+                android:id="@+id/numeroP2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Numero" />
@@ -57,7 +57,7 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/textView19"
+                android:id="@+id/resultadoP2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Numero" />
@@ -71,13 +71,13 @@
             android:gravity="center">
 
             <ImageView
-                android:id="@+id/imageView2"
+                android:id="@+id/imageViewP1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 app:srcCompat="@drawable/numero_0" />
 
             <TextView
-                android:id="@+id/textViewP1"
+                android:id="@+id/numeroP1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Numero" />
@@ -106,7 +106,7 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/textView24"
+                android:id="@+id/resultadoP1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Numero" />
@@ -119,13 +119,13 @@
             android:gravity="center">
 
             <ImageView
-                android:id="@+id/imageView3"
+                android:id="@+id/imageViewP0"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 app:srcCompat="@drawable/numero_0" />
 
             <TextView
-                android:id="@+id/textViewP0"
+                android:id="@+id/numeroP0"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Numero" />
@@ -154,7 +154,7 @@
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/textView26"
+                android:id="@+id/resultadoP0"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Numero" />
@@ -173,7 +173,7 @@
                 android:text="Número Arábigo " />
 
             <TextView
-                android:id="@+id/resultado"
+                android:id="@+id/resultadoTotal"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_span="2"

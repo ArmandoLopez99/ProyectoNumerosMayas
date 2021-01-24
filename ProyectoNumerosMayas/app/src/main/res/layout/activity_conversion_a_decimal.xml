@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nivel2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ConversionADecimal">
+
+    <TextView
+        android:id="@+id/textnivel2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nivel 2: 0" />
+
+    <SeekBar
+        android:id="@+id/barraNivel2"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="19"
+        android:progress="0" />
+
+    <TextView
+        android:id="@+id/textnivel1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nivel 1: 0" />
+
+    <SeekBar
+        android:id="@+id/barraNivel1"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="19"
+        android:progress="0"  />
+
+    <TextView
+        android:id="@+id/textnivel0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nivel 0: 0" />
+
+    <SeekBar
+        android:id="@+id/barraNivel0"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="19"
+        android:progress="0"  />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Número a convertir :" />
+
+    <ImageView
+        android:id="@+id/imgNivel2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/numero_0" />
+
+    <ImageView
+        android:id="@+id/imgNivel1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/numero_0" />
+
+    <ImageView
+        android:id="@+id/imgNivel0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/numero_0" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="convertirADecimal"
+        android:text="Convertir" />
+</LinearLayout>

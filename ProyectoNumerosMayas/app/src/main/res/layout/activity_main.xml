@@ -6,43 +6,26 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="345dp"
-        android:layout_height="61dp"
-        android:text="Ingresa el numero que deseas convertir a maya:"
-        android:textAlignment="textStart"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="267dp"
+        android:layout_height="93dp"
+        android:onClick="abrirConversionAMaya"
+        android:text="Conversion Decimal a Maya"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.238"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.065" />
-
-    <EditText
-        android:id="@+id/editTextNumeroParaConvertir"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
-        android:ems="10"
-        android:hint="0"
-        android:inputType="numberSigned"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.079"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.478" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
-        android:onClick="convertirNumero"
-        android:text="Convertir"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumeroParaConvertir" />
+        android:id="@+id/button4"
+        android:layout_width="267dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="15dp"
+        android:onClick="abrirConversionADecimal"
+        android:text="CONVERSION MAYA A DECIMAL"
+        app:layout_constraintStart_toStartOf="@+id/button2"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

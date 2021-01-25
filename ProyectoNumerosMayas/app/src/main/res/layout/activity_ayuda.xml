@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Ayuda">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:paddingRight="15dp"
+            android:paddingLeft="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="¿Cómo se escriben los números mayas?"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:padding="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/numerosmayas" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="En la numeración Maya había sólo tres símbolos para representar los números, aunque estas formas variaban según el uso: algunas eran para los monumentos, otras para los códices y otras eran representaciones humanas.  Los tres símbolos básicos eran el punto que equivale al uno, la raya que su valor es el cinco y el caracol (también conocido como concha o semilla) es valor cero. Combinando estos símbolos se obtenían los números del 0 al 20, como podéis apreciar en la imagen a comienzo del artículo. Es así como el sistema de numeración maya las cantidades son agrupadas de 20 en 20. De ahí que se lo llame sistema vigesimal porque está basado en el número 20.\n"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ahora veremos cómo se escriben los números del 21 en adelante. Como ya hemos dicho, el sistema es posicional y el valor de una cifra variaba según la posición vertical que esta ocupa en un número. En el nivel inferior van los numerales, que son los números del 0 al 20. En el nivel superior cualquier número que se coloque vale esta cifra multiplicada por 20. Aquí vemos el ejemplo del número 25."
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="100dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/numero25" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="¿ Cómo se lee esto? La parte inferior es 5 (una raya equivale a 5), y la superior equivale a 20 (el punto equivale a 1 y se multiplica por 20 por estar en el 2º nivel).  Cuando se usa el 3º nivel, la cifra allí ubicada se multiplica x 400 (20 x 20). Cuando se usa el 4º nivel, la cifra ahí ubicada se multiplica por 8000 (20 x 20 x 20)."
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

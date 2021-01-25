@@ -25,6 +25,7 @@ public class ConversionAMaya
     }
 
     public void convertirNumero(View view) {
+       if (!editTextNumeroParaConvertir.getText().toString().equals("")){
        // int numeroAConvertir= Integer.parseInt(editTextNumeroParaConvertir.getText().toString());
         numeroRestante = Integer.parseInt(editTextNumeroParaConvertir.getText().toString());
 
@@ -38,7 +39,7 @@ public class ConversionAMaya
         intent.putExtra("p1",p1);
         intent.putExtra("p0",p0);
        // intent.putExtra("numero",numeroAConvertir);
-        startActivity(intent);
+        startActivity(intent);}
     }
 
     public int obtenerNumeroPosicion(int numero, int base) {
